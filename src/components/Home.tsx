@@ -36,6 +36,8 @@ export const Home = () => {
           <WorkerForm userid={workers[0]?.userid}></WorkerForm>
         </Grid>
       );
+    } else {
+      return <WorkerForm userid={workers[0]?.userid}></WorkerForm>;
     }
   }
 
