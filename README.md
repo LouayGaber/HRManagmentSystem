@@ -6,7 +6,7 @@ this is a hr managment worker system
  first we run script : npm i
 
 then we need to have a sql server running in order to deal with databse  
-the mysql databse config is in server.config.db.config
+the mysql databse config is in server/config/db.config
 
 after you setup the db config
 you can start the server by running
