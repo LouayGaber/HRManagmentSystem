@@ -3,7 +3,7 @@ this is a hr managment worker system
 
 ## every hr have a username ( email) and password and its declared
 
-# as users in the server/utils/db.json file
+## as users in the server/utils/db.json file
 
  first we run script : npm i
 
