@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "username": "1@test.com",
+      "password": "11111111"
+    },
+    {
+      "username": "2@test.com",
+      "password": "222222222"
+    },
+    {
+      "username": "3@test.com",
+      "password": "333333333"
+    },
+    {
+      "username": "4@test.com",
+      "password": "444444444"
+    }
+  ],
+  "workers": [
+    {
+      "name": "john",
+      "joineddate": "2022",
+      "content": "full stack developer",
+      "userid": "1@test.com"
+    },
+    {
+      "name": "max",
+      "joineddate": "2022",
+      "content": "react  developer",
+      "userid": "1@test.com"
+    },
+    {
+      "name": "louay",
+      "joineddate": "2022",
+      "content": ".net  developer",
+      "userid": "3@test.com"
+    },
+    {
+      "name": "firas",
+      "joineddate": "2022",
+      "content": "full stack team lead developer",
+      "userid": "4@test.com"
+    }
+  ]
+}
