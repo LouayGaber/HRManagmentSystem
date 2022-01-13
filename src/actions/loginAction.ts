@@ -21,10 +21,9 @@ export const LoginUser = (params: any) => {
     data: params,
   };
 };
-export const Logout = (data: any) => {
+export const Logout = () => {
   return {
     type: actionTypes.LOGOUT,
-    data,
   };
 };
 export const LoginSucess = (data: any) => {
