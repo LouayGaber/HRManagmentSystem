@@ -81,14 +81,16 @@ const Worker = ({ worker, color }: any) => {
         >
           {newUserName}
         </Typography>
-        <Typography style={{ color: "gray", display: "flex" }}>
+        <Typography
+          style={{ color: "gray", display: "flex", paddingRight: "2px" }}
+        >
           Joined in
           <Typography
             contentEditable={contentEditable}
             onInput={handleEditDate}
             suppressContentEditableWarning={true}
+            style={{ paddingLeft: "2px" }}
           >
-            {"  "}
             {newuserJoinedDate}
           </Typography>
         </Typography>

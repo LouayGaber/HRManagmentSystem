@@ -47,19 +47,21 @@ export const WorkerForm = ({ userid }: any) => {
       <CssBaseline />
       <Box
         sx={{
-          marginTop: 8,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          paddingBottom: "10px",
         }}
       >
-        <>
-          <Box
-            component="form"
-            onSubmit={handleAddUser}
-            noValidate
-            sx={{ mt: 1 }}
-          >
+        <div
+          style={{
+            boxShadow: "10px 10px 5px lightgray",
+            padding: "20px",
+            border: "2px solid black",
+            borderRadius: "10px",
+          }}
+        >
+          <Box component="form" onSubmit={handleAddUser} noValidate>
             <TextField
               margin="normal"
               required
@@ -96,12 +98,17 @@ export const WorkerForm = ({ userid }: any) => {
               type="submit"
               fullWidth
               variant="contained"
-              sx={{ mt: 3, mb: 2 }}
+              sx={{
+                mt: 3,
+                mb: 2,
+                width: "40%",
+                boxShadow: "5px 5px 2px",
+              }}
             >
               Add User
             </Button>
           </Box>
-        </>
+        </div>
       </Box>
     </Container>
   );
